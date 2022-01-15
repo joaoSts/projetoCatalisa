@@ -26,6 +26,8 @@ function primeiroPersonagem() {
       </ul>`;
     });
 }
+
+
 function segundoPersonagem() {
   let numeroAleatorio = gerarValorAleatorio();
   return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
@@ -62,6 +64,7 @@ function terceiroPersonagem() {
       </ul>`;
     });
 }
+
 
 btn.addEventListener("click", () => {
   primeiroPersonagem();
